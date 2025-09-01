@@ -4,7 +4,7 @@ import axios from "axios";
 
 const client = axios.create({
   // baseURL: "http://localhost:8000",
-  baseURL: "https://guru-uruthi-backend.vercel.app",
+baseURL: "https://guru-uruthi-backend-five.vercel.app",
   
 });
 
