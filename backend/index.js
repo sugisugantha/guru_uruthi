@@ -22,8 +22,9 @@ const corsOptions = {
     "http://localhost:5173",
     "http://localhost:5174",
     "https://guru-uruthi-admin-rho.vercel.app",
-    "https://guru-uruthi-frontend-sigma.vercel.app"
-
+    "https://guru-uruthi-frontend-sigma.vercel.app",
+    "https://www.guruvalueproducts.com",
+    "https://admin.guruvalueproducts.com"
   ],
 
   methods: ["GET", "POST", "PUT", "DELETE"],
