@@ -4,6 +4,10 @@ const cors = require("cors");
 const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
 const app = express();
+const path = require("path");
+
+
+app.use(express.static(path.join(__dirname, "public")));
 
 //routes
 const loginRoute = require("./Route/loginRoute");
@@ -13,7 +17,6 @@ const userRoute = require("./Route/userContactRoute");
 const productsRoute = require("./Route/productsRoute");
 const reviewRoute = require("./Route/reviewRoute");
 const contactRoute = require("./Route/ContactRouter");
-
 
 app.use(cookieParser());
 app.use(express.json());
